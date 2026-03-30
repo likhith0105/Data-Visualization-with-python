@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+# Create a Figure with basic size and background color
+fig = plt.figure(figsize=(6, 4), facecolor='lightblue')
+
+# Add Axes to the Figure
+ax = fig.add_axes([0.1, 0.1, 0.8, 0.8])
+x = [1, 2, 3, 4]
+y = [10, 20, 15, 25]
+ax.plot(x, y)
+
+plt.title("Simple Line Plot")
+plt.xlabel("X-Axis")
+plt.ylabel("Y-Axis")
+plt.show()
